@@ -4,3 +4,7 @@ nbproject
 .project
 .settings/
 .DS_Store
+change/vendor
+change/composer.lock
+change.phar
+change/composer.phar
