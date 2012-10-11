@@ -13,7 +13,7 @@
 //    See the License for the specific language governing permissions and
 //    limitations under the License.
 
-require_once 'phar://change.phar/vendor/autoload.php';
+require_once 'vendor/autoload.php';
 define('PROJECT_HOME', getcwd());
 
 use \Change\Application;
