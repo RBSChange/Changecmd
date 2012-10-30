@@ -7,3 +7,5 @@ This tool replaces the `change.php` command.
     > php composer.phar install
     > cd ..
     > php build.php
+    
+Don't forget to set up `phar.readonly = Off` !
