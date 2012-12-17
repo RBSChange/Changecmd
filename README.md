@@ -1,5 +1,5 @@
 # RBS Change Console Tool
-This tool replaces the `change.php` command. 
+This tool replaces the `change.php` command line tool.
 
 ## Building the RBS Change Console tool
     > cd change/
@@ -8,4 +8,4 @@ This tool replaces the `change.php` command.
     > cd ..
     > php build.php
     
-Don't forget to set up `phar.readonly = Off` !
+Don't forget to set up `phar.readonly = Off` in your php.ini file !
