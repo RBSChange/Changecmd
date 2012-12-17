@@ -8,4 +8,4 @@ This tool replaces the `change.php` command.
     > cd ..
     > php build.php
     
-Don't forget to set up `phar.readonly = Off` !
+Don't forget to set up `phar.readonly = Off` in your php.ini file !
