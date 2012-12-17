@@ -1,5 +1,5 @@
 # RBS Change Console Tool
-This tool replaces the `change.php` command. 
+This tool replaces the `change.php` command line tool.
 
 ## Building the RBS Change Console tool
     > cd change/
