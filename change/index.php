@@ -23,7 +23,7 @@ if (file_exists(PROJECT_HOME . '/Change/Application.php'))
 {
 	require_once PROJECT_HOME . '/Change/Application.php';
 	require_once PROJECT_HOME . '/Change/Application/Console/ConsoleApplication.php';
-	$application = Application::getInstance();
+	$application = new \Change\Application();
 	$application->start();
 	$consoleApp = new ConsoleApplication("RBS Change Console Tool", $application->getVersion());
 	$consoleApp->setChangeApplication($application);
