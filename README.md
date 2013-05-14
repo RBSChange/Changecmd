@@ -2,9 +2,9 @@
 This tool replaces the `change.php` command line tool.
 
 ## Building the RBS Change Console tool
-    > cd change/
     > curl -s https://getcomposer.org/installer | php
-    > php composer.phar install
+    > cd change/
+    > php ../composer.phar install
     > cd ..
     > php build.php
     
